@@ -52,8 +52,7 @@
   height: 12rem;
   width: 12rem;
   border-radius: 100%;
-  border: 5px solid white;
-  background-color: transparent; }
+  background-color: white; }
 
 .projects {
   display: flex;
@@ -84,5 +83,16 @@ a {
 .git-link {
   height: 1.25rem;
   margin-bottom: 3rem; }
+
+.contact-p {
+  font-size: 1rem;
+  margin: 0 auto; }
+
+.contact-div {
+  display: flex;
+  justify-content: space-around; }
+
+.contact-head {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
