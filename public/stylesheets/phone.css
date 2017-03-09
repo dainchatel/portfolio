@@ -13,11 +13,11 @@
 .head-holder {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  align-items: center;
    }
 
 #last-name {
-  margin-top: -3rem;
+  margin-top: -2.9rem;
 }
 
 .touchless {
@@ -27,9 +27,9 @@
   margin: 0 auto; }
   .touchless h1 {
     padding-bottom: 0;
-    margin: -1rem 1rem -.5rem 1rem;
+    margin: -1rem 1rem -.2rem 1rem;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 5rem;
     letter-spacing: -1.5vw; }
   .touchless p {
     margin-top: 13rem;
@@ -59,8 +59,8 @@
     margin-top: 1.5rem; }
 
 .alien-icon {
-  height: 12rem;
-  width: 12rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 100%;
   background-color: white; }
 
@@ -71,7 +71,8 @@
   align-items: center; }
 
 #business-icon, #chat-icon, #location_on-icon, #camera-icon, #color-icon {
-  font-size: 15rem; }
+  font-size: 15rem;
+  margin-top: -40px;}
 
 #third {
   background-color: #d7e9ff;
@@ -106,5 +107,9 @@ a {
 
 .contact-head {
   margin-bottom: 0; }
+
+.project-name {
+  padding-top: 90px;
+}
 
 /*# sourceMappingURL=style.css.map */
