@@ -91,20 +91,18 @@
     margin-top: -5vh;
     letter-spacing: 0;
     color: #ffcc4c;
-    margin-bottom: -1vh; }
+    margin-bottom: -1vh;
+    font-size: 4rem; }
   #third p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
     color: #ffcc4c;
     margin: 0 auto; }
   #third a {
     color: transparent;
     -webkit-text-stroke: 1px #ffcc4c;
-    font-size: 3.5rem; }
-  #third img {
-    width: 54vw;
-    height: 75vh;
-    opacity: .1; }
+    font-size: 3rem; }
+
 
 .inset {
   background-color: #19aaff;
@@ -125,12 +123,12 @@
   color: transparent; }
   #fourth h2 {
     font-weight: 500;
-    font-size: 8rem;
+    font-size: 6rem;
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 0;
-    margin-top: -.6em;
-    margin-bottom: -.6em;
+    margin-top: -.65em;
+    margin-bottom: -.65em;
     -webkit-text-stroke: 4px #e54b4b;
     opacity: .2; }
   #fourth .bonus-holder {
