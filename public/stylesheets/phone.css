@@ -84,15 +84,16 @@
 #third {
   background-color: #0b5ce8;
   color: transparent;
-  position: relative; }
+ }
   #third h2 {
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: -5vh;
+    margin-top: -7vh;
+    width: 96vw;
+    margin-left: -12vw;
     letter-spacing: 0;
     color: #ffcc4c;
-    margin-bottom: -1vh;
-    font-size: 4rem; }
+    margin-bottom: -1vh; }
   #third p {
     font-size: 1.5rem;
     font-weight: 100;
@@ -105,15 +106,15 @@
 
 
 .inset {
-  background-color: #19aaff;
   position: absolute;
+  background-color: #19aaff;
   opacity: .3;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 54vw;
-  height: 62vh;
+  width: 0;
+  height: 0;
   z-index: -.5; }
 
 
@@ -185,7 +186,13 @@
 }
 
 .contact {
-  position: absolute;
+  width: 76vw;
+  height: 50vh;
+  background-color: #0f73ef;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+
 
 /*# sourceMappingURL=style.css.map */
