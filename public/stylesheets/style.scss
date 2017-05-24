@@ -34,10 +34,13 @@
     color: white;
     // -webkit-text-stroke: 8px white;
   }
-  p {
+  .scroll-dir {
     margin-top: 13rem;
     font-size: 1rem;
     text-transform: lowercase;
+  }
+  .mob-scroll-dir {
+    display: none;
   }
   h2 {
     margin-top: -1rem;

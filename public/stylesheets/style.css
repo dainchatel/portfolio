@@ -26,10 +26,12 @@
     letter-spacing: -1.2vw;
     font-weight: 500;
     color: white; }
-  .touchless p {
+  .touchless .scroll-dir {
     margin-top: 13rem;
     font-size: 1rem;
     text-transform: lowercase; }
+  .touchless .mob-scroll-dir {
+    display: none; }
   .touchless h2 {
     margin-top: -1rem;
     font-size: 2rem;
