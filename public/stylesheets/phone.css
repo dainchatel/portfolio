@@ -36,7 +36,10 @@
     margin-top: 13rem;
     font-size: 1rem;
     text-transform: lowercase;
-    color: transparent; }
+    visibility: hidden; }
+  .touchless p:after {
+    content: 'V';
+  }
   .touchless h2 {
     margin-top: -1rem;
     font-size: 1.5rem;
@@ -102,6 +105,11 @@
     color: transparent;
     -webkit-text-stroke: 1px #ffcc4c;
     font-size: 3rem; }
+  #bottom-contact-p {
+    text-decoration: none;
+    color: #ffcc4c;
+    font-size: 1.5rem;
+  }
 
 
 .inset {
