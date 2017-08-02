@@ -91,11 +91,13 @@
   align-items: center;
 }
 
+.icon-holder {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: radial-gradient(circle at 50% 120%, rgb(255,107,104), rgb(255,107,104) 10%, #055194 80%, rgb(18,23,56) 100%);
+}
 #business-icon, #queue-icon, #chat-icon, #location_on-icon, #camera-icon, #color-icon {
   font-size: 15rem;
-  background-clip: text;
-  text-fill-color: transparent;
-  background: radial-gradient(circle at 50% 120%, rgb(255,107,104), rgb(255,107,104) 10%, #055194 80%, rgb(18,23,56) 100%);
 }
 
 #third {
