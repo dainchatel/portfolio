@@ -74,7 +74,7 @@
   color: rgb(255,107,104);;
   text-align: center; }
   #second h2 {
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
     margin: -80px auto 20px auto;
     font-size: 3.5rem; }
@@ -94,6 +94,7 @@
   width: 10rem;
   border-radius: 100%;
   background: radial-gradient(circle at 50% 120%, #ff6b68, #ff6b68 10%, #055194 80%, #121738 100%);
+}
 
 .projects {
   display: flex;
@@ -102,11 +103,11 @@
   align-items: center; }
 
 #business-icon, #queue-icon, #chat-icon, #location_on-icon, #camera-icon, #color-icon {
+  font-size: 15rem;
   margin-top: -40px;
   background: radial-gradient(circle at 50% 120%, #ff6b68, #ff6b68 10%, #055194 80%, #121738 100%);
-  font-size: 15rem;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
 }
 
 #third {
@@ -156,8 +157,8 @@
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 0;
-    margin-top: -.65em;
-    margin-bottom: -.65em;
+    margin-top: -30px;
+    margin-bottom: -35px;
     -webkit-text-stroke: 4px #e54b4b;
     opacity: .2; }
   #fourth .bonus-holder {
