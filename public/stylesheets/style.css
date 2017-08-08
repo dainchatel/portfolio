@@ -61,7 +61,7 @@
   height: 12rem;
   width: 12rem;
   border-radius: 100%;
-  background-color: #ff6b68;
+  background: radial-gradient(circle at 50% 120%, #ff6b68, #ff6b68 10%, #055194 80%, #121738 100%);
   margin-top: 1.5rem; }
 
 .projects {
@@ -70,9 +70,11 @@
   flex-direction: column;
   align-items: center; }
 
-#business-icon, #chat-icon, #location_on-icon, #camera-icon, #color-icon {
+#business-icon, #queue-icon, #chat-icon, #location_on-icon, #camera-icon, #color-icon {
+  background: radial-gradient(circle at 50% 120%, #ff6b68, #ff6b68 10%, #055194 80%, #121738 100%);
   font-size: 15rem;
-  color: #ff6b68; }
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 #third {
   background-color: #0b5ce8;
