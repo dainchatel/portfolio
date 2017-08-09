@@ -20,7 +20,13 @@
             <h1>dain</h1><h1 id='last-name'>chatel</h1>
           </div>
           <h2>full stack developer</h2>
-          <p class='scroll-dir'>touchless // wave hand up // or scroll</p>
+          <div class='gest-explainer'>
+            <h3>Gesture Navigation</h3>
+            <p>If you let this portfolio access your camera, you can scroll through the pages by waving your hand up and down or side to side.</p>
+            <p>Don't worry, it doesn't register any video or image data.</p>
+            <p>If you prefer to keep your camera off, you can scroll normally.</p>
+          </div>
+          <p class='scroll-dir'><i id='gesture-nav-icon' class="material-icons">videocam</i></p>
           <p class='mob-scroll-dir'><i class="fa fa-sort-desc"></i></p>
         </div>
       </div>
@@ -74,7 +80,7 @@
         <div class='slide'>
           <div class='projects'>
             <h2 class='big-names'>horror rater</h2>
-            <a id='horror-icon' href='https://radiant-mesa-86526.herokuapp.com/'><i id='camera-icon' class="material-icons">videocam</i></a>
+            <a id='horror-icon' href='https://radiant-mesa-86526.herokuapp.com/'><i id='camera-icon' class="material-icons">play_circle_outline</i></a>
             <p>a 'scariness aggregator' crud built with postgresql + react on rails</p>
             <a class='git-link' href='https://github.com/dainchatel/HorrorRater'><i class="fa fa-github"></i></a>
           </div>
@@ -120,31 +126,32 @@
         </div>
       </div>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-93357952-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js'></script>
-    <script type="text/javascript" src="/javascripts/gest.js"></script>
-    <script src='/javascripts/fullPageLoader.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
     <script>
       WebFont.load({
         google: {
           families: ['Overpass:100,200,300,400,500,600,700,800,900']
-    }
-  });
-</script>
+        }
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-93357952-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous">
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js'></script>
+    <script type="text/javascript" src="/javascripts/gest.js"></script>
+    <script src='/javascripts/fullPageLoader.js'></script>
+    <script src='/javascripts/camerahover.js'></script>
 
   </body>
 </html>
