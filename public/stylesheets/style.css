@@ -58,7 +58,7 @@
     justify-content: center;
     position: absolute;
     height: 65vh;
-    width: 70vw;
+    width: 75vw;
     opacity: 0;
     top: 40px;
     background-color: white;
@@ -71,7 +71,7 @@
     box-shadow: 1px 1px 30px 5px rgba(60, 60, 60, 0.2); }
     .touchless .gest-explainer h3 {
       color: rgba(60, 60, 60, 0.5);
-      margin: -35px 0 5px 0; }
+      margin: -25px 0 5px 0; }
     .touchless .gest-explainer p {
       width: 56vw;
       font-size: 1.25rem;
