@@ -3,7 +3,7 @@ let gestexplainer = $('.gest-explainer');
 let gestbounce = $('.scroll-dir');
 
 let gestfunc = function() {
-  gestexplainer.css('opacity', '.9');
+  gestexplainer.css('opacity', '1');
   gestbounce.css('animation', 'none');
 }
 
